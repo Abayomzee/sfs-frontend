@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Page Title -->
+    <title>SFS::Dashboard</title>
+
+    <!-- Site Favicon -->
+    <link rel="shortcut icon" href="../favicon.png" />
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="../scripts/css/main.css" />
+    <link rel="stylesheet" href="../scripts/css/responsiveness.css" />
+    <link rel="stylesheet" href="../scripts/css/animation.css" />
+
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+
+    <!-- Boostrap CDN -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- CSS Animation -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css"
+    />
+
+    <!-- Chart -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+  </head>
+  <body>
+    <div class="main_dashboad_wrapper">
+      <div class="side_nav">
+        <div class="site_logo">
+          <img src="../utils/images/logo.png" alt="" />
+        </div>
+
+        <div class="side_links">
+          <ul>
+            <li>
+              <a href="./dashboard.html">
+                <i class="fas fa-th-large"></i>
+                Overview
+              </a>
+            </li>
+            <li>
+              <a href="my-investments.html">
+                <i class="fas fa-copy"></i>
+                Investment
+              </a>
+            </li>
+            <li>
+              <a href="portfolio.html">
+                <i class="fas fa-sync-alt"></i>
+                Transactions
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fas fa-share-alt"></i>
+                Invite Friends
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fas fa-cloud-download-alt"></i>
+                Download statement
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="sideNav_footer">
+          <p>
+            2019 | Copright - sfs Capital
+          </p>
+        </div>
+      </div>
+
+      <div class="dashboard_body">
+        <div class="dasboard_nav">
+          <div class="notification">
+            <p>
+              Hi Andie! you are yet to complete your account setup
+            </p>
+          </div>
+          <div class="user_sett">
+            <div class="user_image">
+              <img src="../utils/images/user.png" alt="" />
+            </div>
+            <div class="user_name">
+              <p>Andie kane <i class="fas fa-angle-down"></i></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="dashboard_body_content">
+          <div class="invest_detail_top">
+            <div class="title">
+              <h4>
+                Investment Details
+              </h4>
+            </div>
+
+            <div class="invest_btn green_btn">
+              <button data-toggle="modal" data-target="#meep_settings">
+                Invest Now
+              </button>
+            </div>
+          </div>
+
+          <div class="invest_detail_desc">
+            <div class="left">
+              <img src="../utils/images/logo_big.png" alt="" />
+            </div>
+
+            <div class="right">
+              <div class="right_header">
+                <h4>
+                  SFS Fixed Income Fund
+                </h4>
+                <p>
+                  Full investment plan description, The Company currently
+                  operates in 25 states in Nigeria including the Federal Capital
+                  Territory– Abuja. With a staff strength . Our team of highly
+                  qualified Investment Banking professionals has an enviable
+                  repertoire of regulatory and policy knowledge gained through
+                  year of strong deal experience.
+                </p>
+              </div>
+
+              <div class="right_footer">
+                <div>
+                  <p>
+                    Interest
+                  </p>
+                  <p>
+                    10% monthly
+                  </p>
+                </div>
+
+                <div>
+                  <p>
+                    Minimum investment amount
+                  </p>
+                  <p>
+                    ₦ 200,000.00
+                  </p>
+                </div>
+
+                <div>
+                  <p>
+                    Expected Payoff
+                  </p>
+                  <p>
+                    ₦ 260,500.00
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="chart_section">
+            <canvas id="myChart"></canvas>
+
+            <script>
+              var ctx = document.getElementById("myChart").getContext("2d");
+              var chart = new Chart(ctx, {
+                // The type of chart we want to create
+                type: "line",
+
+                // The data for our dataset
+                data: {
+                  labels: [
+                    "January",
+                    "February",
+                    "March",
+                    "April",
+                    "May",
+                    "June",
+                    "July",
+                  ],
+                  datasets: [
+                    {
+                      label: "My First dataset",
+                      backgroundColor: "rgba(0, 0, 0,0)",
+                      borderColor: "rgb(255, 216, 115)",
+                      data: [45, 30, 20, 5, 2, 10, 0],
+                    },
+                  ],
+                },
+
+                // Configuration options go here
+                options: {},
+              });
+            </script>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- The Modal -->
+    <div class="modal fade" id="meep_settings">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <!-- <h4 class="modal-title">Modal Heading</h4> -->
+            <button type="button" class="close" data-dismiss="modal">
+              <span> Close </span> &times;
+            </button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body p-0">
+            <div class="inv_deatails">
+              <div class="upper_part">
+                <div class="">
+                  <img src="../utils/images/logoo.png" alt="" />
+                </div>
+                <div class="inv_details_desc">
+                  <div class="text">
+                    <h4>
+                      SFS Fixed Income Fund
+                    </h4>
+                  </div>
+
+                  <div class="brk_down">
+                    <div class="interest">
+                      <span>
+                        Interest
+                      </span>
+                      <p>
+                        13% monthly
+                      </p>
+                    </div>
+                    <div class="invest_amountt">
+                      <span>
+                        Interest
+                      </span>
+                      <p>55, 000.00 <span> TO </span> 155, 000.00</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="link_part">
+                <div class="investment_link active">
+                  <span>
+                    Investment
+                  </span>
+                </div>
+                <div class="payment_link">
+                  <span>
+                    Payment
+                  </span>
+                </div>
+              </div>
+
+              <div class="investment" id="myinvest_investment">
+                <div class="form_desc">
+                  <p>
+                    Tell us how much and how long you will like to <br />
+                    invest on this plan?
+                  </p>
+                </div>
+
+                <div class="login_inputs">
+                  <form action="">
+                    <div class="input_div">
+                      <span class="formLabel">
+                        How much do you want to invest
+                      </span>
+                      <input
+                        type="text"
+                        name=""
+                        id=""
+                        placeholder="Full Name"
+                      />
+                    </div>
+
+                    <div class="input_div">
+                      <span class="formLabel"> How long </span>
+                      <input type="email" name="" id="" placeholder="Email" />
+                    </div>
+
+                    <!-- <div class="btn_full_width green_btn">
+                                    <button>
+                                        Login
+                                    </button>
+                                </div> -->
+
+                    <div class="btn_full bg_grey" id="goto_payment">
+                      <button>
+                        Next
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+
+              <div class="payment pb-5" id="myinvest_payment">
+                <div class="card_options my-5 available_card">
+                  <div>
+                    <div class="card_icon">
+                      <img src="../utils/icons/mastercard.png" alt="" />
+                    </div>
+
+                    <div class="card_name">
+                      <h6>
+                        MASTERCARD - 4567
+                      </h6>
+                      <p>
+                        Guaranty Trust Bank
+                      </p>
+                    </div>
+                  </div>
+                  <div class="icon_one">
+                    <i class="fas fa-check-circle"></i>
+                  </div>
+                </div>
+
+                <div class="card_options my-5 available_card">
+                  <div>
+                    <div class="card_icon">
+                      <img src="../utils/icons/mastercard.png" alt="" />
+                    </div>
+
+                    <div class="card_name">
+                      <h6>
+                        MASTERCARD - 4567
+                      </h6>
+                      <p>
+                        Guaranty Trust Bank
+                      </p>
+                    </div>
+                  </div>
+                  <div class="icon_one">
+                    <i class="fas fa-check-circle"></i>
+                  </div>
+                </div>
+
+                <div class="btn_full">
+                  <a href="./success.html">
+                    <button>
+                      Purchase
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- <div class="btn_full_width green_btn">
+                        <button id="">
+                            Invest
+                        </button>
+                </div> -->
+          </div>
+
+          <!-- Modal footer -->
+          <!-- <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div> -->
+        </div>
+      </div>
+    </div>
+
+    <script src="../scripts/js/jQuery.min.js"></script>
+    <script src="../scripts/js/main.js"></script>
+  </body>
+</html>
